@@ -3,8 +3,8 @@ require("dotenv").config();
 const toBool = x => (x && x.toLowerCase() === "true") || false;
 const DATABASE_URL = process.env.DATABASE_URL || "./database.db";
 module.exports = {
-	SESSION_ID: (process.env.SESSION_ID || "").trim(),
-	BOT_INFO: process.env.BOT_NAME || "Astro;FxBot",
+	SESSION_ID: (process.env.SESSION_ID || "SESSION_ID = "Prince~lo51ETKB#OQkpNx0Geostls2TfqCfMhBar2oOuQbU3R37c3nZmlGc").trim(),
+	BOT_INFO: process.env.BOT_NAME || "Alex;Hoyo",
 	SUDO: process.env.SUDO || "912345678909",
 	HANDLERS: process.env.HANDLER === "false" || process.env.HANDLER === "null" ? "^" : ".",
 	WELCOME_MSG: process.env.WELCOME_MSG || "Hi @user Welcome to @gname",
